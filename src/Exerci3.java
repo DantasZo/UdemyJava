@@ -17,6 +17,7 @@ public static void main(String args[]) {
     
     System.out.println("Resultado da soma: "+(a+b));*/
    
+    /*exercicio 2 
     //area = pi*raio2 
 
 
@@ -25,6 +26,21 @@ public static void main(String args[]) {
     raio = sc.nextDouble(); 
     area = 3.14159*(raio*raio);
     
-    System.out.printf("A area do circulo é de: %.4f",area);
-}
+    System.out.printf("A area do circulo é de: %.4f",area); */
+   
+    //DIFERENCA = (A * B - C * D)
+
+   /*  System.out.println("Insira o valor dos 4 produtos: ");
+    int a,b,c,d;
+    
+    a =sc.nextInt();
+    b =sc.nextInt();
+    c =sc.nextInt();
+    d =sc.nextInt();
+
+    System.out.println("Diferença do produto é de: "+((a*b)-(c*d)));
+
+}*/
+
+
 }

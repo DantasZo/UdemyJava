@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Exerci3 {
@@ -43,4 +44,17 @@ public static void main(String args[]) {
 }*/
 
 
+Locale.setDefault(Locale.US);
+System.out.println("Insira o Numero do colaborador,  numero de horas trabalhadas e o salario hora, respectivamente.");
+
+int funcionario = sc.nextInt();
+
+int horas = sc.nextInt();
+
+double salario = sc.nextDouble()*horas;
+
+System.out.printf("Numero do colaborador: %d %n Salario: %.2f", funcionario, salario);
+
+
+}
 }

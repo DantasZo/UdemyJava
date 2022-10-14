@@ -12,13 +12,18 @@ public class Exerci5 {
         System.out.println("Numero positivo!");
         else 
         System.out.println("Numero negativo!");
-        */
         int x = sc.nextInt();
         if (x % 2 == 0)
         System.out.println("Numero par! ");
         else
         System.out.println("numero impar!");
-
+        */
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        if( x % y == 0 || y % x == 0 )
+        System.out.println("São multiplos! ");
+        else
+        System.out.println("Não são multiplos!");        
 
 
     }

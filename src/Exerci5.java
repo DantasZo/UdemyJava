@@ -17,14 +17,33 @@ public class Exerci5 {
         System.out.println("Numero par! ");
         else
         System.out.println("numero impar!");
-        */
         int x = sc.nextInt();
         int y = sc.nextInt();
         if( x % y == 0 || y % x == 0 )
         System.out.println("São multiplos! ");
         else
         System.out.println("Não são multiplos!");        
+        if ( x - y < 0 || y - x < 0){
+        int i = y - x * 1;
+        }
+        */
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        
+		
+		int duracao;
+		if (x < y) {
+			duracao = x - y;
+		}
+		else {
+			duracao = 24 - x + y;
+		}
+        if (duracao < 0) {
 
-
+        duracao = duracao * -1;
+        System.out.println("O JOGO DUROU " + duracao + " HORA(S)");
+        }
+		else
+		System.out.println("O JOGO DUROU " + duracao + " HORA(S)");
     }
 }

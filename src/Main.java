@@ -2,7 +2,11 @@ public class Main {
 
     public static void main(String args[]) {
 
-        System.out.println("Olá mundo!");
+    int x = 6 ;
+    if ( x < 5 && x < 10){
+
+        System.out.println("Hola manitos!");
+    }
         
     }
 }
